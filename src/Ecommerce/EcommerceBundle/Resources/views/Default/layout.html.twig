@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EUROELEC</title>
+  
+    <link rel="stylesheet" href="{{asset('vendors/css/font-awesome.css')}}">
+   <link rel="stylesheet" href="{{asset('vendors/css/liquidcarousel.css')}}">
+    <link rel="stylesheet" href="{{asset('ressources/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('vendors/css/iview.css')}}">
+<script src="{{asset('vendors/js/jquery-1.7.1.min.js')}}"  type="text/javascript"></script>
+      <script src="{{asset('vendors/js/jquery.liquidcarousel.pack.js')}}"></script>
+       <script src="{{asset('vendors/js/raphael-min.js')}}"></script>
+    <script src="{{asset('vendors/js/jquery.easing.js')}}"></script>
+    <script src="{{asset('vendors/js/iview.min.js')}}"></script>
+    <script src="{{asset('ressources/js/script.js')}}"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+			$('#liquid1').liquidcarousel({height:129, duration:300, hidearrows:false});
+		});
+
+	</script>
+
+  
+    
+</head>
+
+<body>
+   <header>
+      <div class="top-header">
+       <div class="container">
+           <div class="logo">
+               <img src="{{asset('ressources/images/logo.png')}}" height="104px" alt="">
+           </div>
+           
+           
+           
+           <nav>
+               <ul class="top-nav">
+                   <li><a href="aboutus.html">Qui sommes-nous ?</a></li>
+                   <li><a href="contact.html">Nous contacter</a></li>
+                   <li><a href="#">Crée un compte</a></li>
+                   <li><a href="#">Mon Compte</a></li>
+               </ul>
+           </nav>
+            <div class="rech-panier">
+           
+               <input type="text" name="" id="" class="rechercer" placeholder="Chercher un produit...">
+               <button class="rechercer-btn"><img src="{{asset('ressources/images/search.png')}}" alt=""></button>
+               <button class="panier-btn"><a href=""><i class="fa fa-shopping-cart"></i>Mon Panier (0)</a></button>
+            
+                                 
+           </div>
+          <div style="clear:both;"></div>
+
+           </div>
+           </div>
+            <nav class="main-nav">
+              <ul >
+                  <li><a href="">Electricité industrielle </a></li>
+                  <li><a href="">Eclairage</a></li>
+                  <li><a href="">Mesure & controle</a></li>
+                  <li><a href="">Cablage éléctrique</a></li>
+                  <li><a href="">Electricité de batiments</a></li>
+                  <li><a href="">Fixation</a></li>
+                  <li><a href="">Divers</a></li>
+                  <li><a href="">Outillages</a></li>
+              </ul>
+               
+           </nav>
+       
+   </header>
+ 
+ <div style="clear:both;"></div>
+
+             
+            
+             
+             
+             
+   <div class="container gray-bg">
+       {% block content %}{% endblock %}
+        </div>
+   <footer>
+       <div class="container">
+          <div class="col-1-of-4">
+              <h5>Quelques liens utiles</h5>
+              <ul class="footer-links">
+                  <li><a href="about.html">Qui sommes-nous ?</a></li>
+                  <li><a href="contact.html">Nous contacter</a></li>
+                  <li><a href="">Crée un compte</a></li>
+                  <li><a href="">Mon Compte</a></li>
+              </ul>
+          </div>
+          <div class="col-1-of-2">
+              <h5>Raccourcis</h5>
+              <ul class="footer-links">
+                  <li><a href="">Electricité industrielle</a></li>
+                  <li><a href="">Eclairage</a></li>
+                  <li><a href="">Mesure & controle</a></li>
+                  <li><a href="">Cablage éléctrique</a></li>
+              </ul>
+                <ul class="footer-links second">
+                  <li><a href="">Electricité de batiments </a></li>
+                  <li><a href="">Fixation</a></li>
+                  <li><a href="">Divers </a></li>
+                  <li><a href="">Outillages</a></li>
+              </ul>
+          </div>
+          <div class="col-1-of-4">
+              <h5>Contactez-nous</h5>
+              <ul class="footer-links">
+                  <li><a href="">14 AV de Paris Ben Arous </a></li>
+                  <li><a href="">contact@euroelec.tn</a></li>
+                  <li><a href="">Tél : 71 385 929 <br>
+                                    GSM: 98 248 408 <br>
+                                    Fax : 71 388 509</a></li>
+               
+              </ul>
+              
+          </div>
+           
+       </div>
+       <div style="clear:both;"></div>
+   </footer>
+   <div class="copyright">
+      <p>© 2016  Tous droits réservés euroelec.tn</p>
+      <p><a class="powred" href="http://www.madsoft.tn">wwww.madsoft.tn</a></p>
+       
+   </div>
+
+
+
+    
+</body>
+</html>    

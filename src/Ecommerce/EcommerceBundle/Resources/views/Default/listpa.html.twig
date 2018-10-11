@@ -1,0 +1,78 @@
+
+ 
+
+  
+{%extends "EcommerceEcommerceBundle::layout_admin.html.twig"%}
+{% block content %}
+    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EUROELEC</title>
+  
+    <link rel="stylesheet" href="{{asset('vendors/css/font-awesome.css')}}">
+    <link rel="stylesheet" href="{{asset('ressources/css/admin.css')}}">
+
+
+  
+    
+</head>
+
+<body>
+    <div class="container1">
+<h1>Liste de tous les produits</h1>
+<table  class="responstable">
+                     
+                      <tr>
+                          <th>image</th>
+                          <th>nom</th>
+                          <th style="width:200px;">description</th>
+                          <th>prix</th>
+                          <th>disponible</th>
+                          <th>modifier</th>
+                          <th>TopVente</th>
+                          <th>supprimer</th>
+                     </tr>  
+                        {% for entity in entities %}
+                      <tr>
+                         <td><img src="{{ asset(entity.image.AssetPath) }}" alt="{{ entity.image.name }}" width="100" height="100"></td>
+                         <td>{{ entity.nom }}</td>
+                         <td>{{ entity.description }}</td>
+                         <td>{{ entity.prix }} DT</td>
+                         <td>
+                      {% if entity.disponible == 1 %}
+                          <strong style="color:#FF0000">disponible</strong>
+                        {% else %}
+                            <strong style="color:#00FF00" >hors stock</strong>
+                        {% endif %}  
+                               
+
+                         </td>
+                         <td><a href="{{ path('modifierProduits', { 'id': entity.id }) }}"> Edit </a></td>
+                         <td>
+                             
+                              {% if entity.topvente == 0 %}
+                                        <a href="{{path('topvente_activ',{'id':entity.id})}}">
+                                                       <img width="20px" height="20px" border="0" src="{{asset('ressources/images/desactive.png')}}">
+                                            </a>  
+                                                    {% else %}
+                                             <a href="{{path('topvente_deac',{'id':entity.id})}}">
+                                                         <img width="20px" height="20px" border="0" src="{{asset('ressources/images/active.png')}}">
+                                              </a>  
+
+                               {% endif %}
+                             
+                             
+                         </td>
+                         <td><a href="{{ path('deletep', { 'id': entity.id }) }}"> Supprimer </a></td>                      </tr>                         
+                     {% endfor %}
+                         
+           
+             </table>
+    </div>       
+   </body>
+</html>
+
+   {% endblock %}

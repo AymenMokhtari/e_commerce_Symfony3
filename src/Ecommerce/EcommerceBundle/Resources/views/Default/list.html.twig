@@ -1,0 +1,191 @@
+  
+{%extends "EcommerceEcommerceBundle::layout.html.twig"%}
+{% block content %}
+    
+
+    
+        
+        
+        
+        
+        
+        
+      
+       <div class="path">
+          <a href="">  <i class="fa fa-home home-logo"></i> <span class="path-1">Accueil</span></a><i class="fa fa-angle-double-right"></i>
+           <span class="path-1"><a href="">Qui sommes-nous ?</a></span>
+          
+       </div>
+       
+       
+ 
+       <h2></h2>
+       <div style="clear:both;"></div>
+
+       <div class="product-area">
+           <div class="box left-side">
+           
+             <div class="title-block">
+                  <h3>CATÉGORIES</h3>
+              </div>
+              <ul>
+                  <li><a href="{{path('categorie_by_id',{'categorie':1})}}">Electricité industrielle </a></li>
+                  <li><a href="{{path('categorie_by_id',{'categorie':2})}}">Eclairage</a></li>
+                  <li><a href="{{path('categorie_by_id',{'categorie':3})}}">Mesure & controle</a></li>
+                  <li><a href="{{path('categorie_by_id',{'categorie':4})}}">Cablage éléctrique</a></li>
+                  <li><a href="{{path('categorie_by_id',{'categorie':5})}}">Electricité de batiments</a></li>
+                  <li><a href="{{path('categorie_by_id',{'categorie':6})}}">Fixation</a></li>
+                  <li><a href="{{path('categorie_by_id',{'categorie':7})}}">Divers</a></li>
+                  <li><a href="{{path('categorie_by_id',{'categorie':8})}}">Outillages</a></li>
+              </ul>
+             
+           </div>
+           <div class="main-content ">
+             
+             <div class="box products clearfix">
+         
+            <div class="select">
+               <div class="sortBy">
+                <label for="selectSort">trier par :</label>
+                <select name="" id="">
+                    <option value="">Le moins cher</option>
+                    <option value="">Le plus cher</option>
+                    <option value="">De A à Z</option>
+                    <option value="">De Z à A</option>
+                </select>
+                
+                </div>
+                <div class="display">
+                    <span class="display-title">Afficher :</span>
+                    <div class="grid ">
+                        <a href=""><i class="fa fa-th-large"></i></a>
+                    </div>   
+                    
+                    
+                    <div class="list selected">
+                        <a href=""><i class="fa fa-th-list"></i></a>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+             {% for entity in entities %}
+                 <div class="product-view-list clearfix">
+                     <div class="product-img-list">
+                         <img src="{{ asset(entity.image.AssetPath) }}" alt="{{ entity.image.name }}" width="100" height="100">
+                     </div>
+                     <div class="product-desprption">
+                         <h4>{{ entity.nom }}</h4>
+                         <hr>
+                         <h3 class="price red">{{ entity.prix }} DT</h3>
+                         <p>{{ entity.description }}</p>
+                     </div>
+                     <div class="button-list">
+                         
+                       
+                         {% if entity.disponible == 1 %}
+                               <button class="voir greenbtn">
+                               <strong style="color:#FFF">Disponible</strong>
+                               </button>
+                        {% else %}
+                               <button class="voir redbtn">
+                               <strong style="color:#FFF">Hors Stock</strong>
+                               </button>
+                        {% endif %}  
+
+                         
+                         
+                     </div>
+                     
+                     <div class="clear:both;"></div>
+                 </div>   
+               
+                        
+                     {% endfor %}                     
+                                           
+                                                            
+                                                                     
+                                                                              
+                                                                                       
+                                                                                                
+                                                                                                         
+                                                                                                                  
+                                                                                                                           
+                                                                                                                                    
+                                                                                                                                             
+                                                                                                                                                      
+                                                                                                                                                               
+                                                                                                                                                                        
+                                                                                                                                                                                 
+                                                                                                                                                                                          
+                                                                                                                                                                                                   
+                                                                                                                                                                                                            
+                                                                                                                                                                                                                              
+                     
+                 
+       </div>             
+  
+ 
+              
+              
+               
+           </div>
+           
+       </div>
+       
+        <div style="clear:both;"></div>
+       <div class="footer-services">
+               <h2 class="center-lined ">Plus de raison pour magasiner chez euroelec</h2>
+               <div class="col-1-of-4">
+                   <img src="{{asset('ressources/images/price.png')}}" alt="">
+                   <span>Nous égalons les prix</span>
+               </div>
+               <div class="col-1-of-4">
+                   <img src="{{asset('ressources/images/brands.png')}}" alt="">
+                   <span>Meilleures marques internationales</span>
+               </div>
+               <div class="col-1-of-4">
+                   <img src="{{asset('ressources/images/free-shiping.png')}}" alt="">
+                   <span>Livraison rapide et gratuite</span>
+               </div>
+               <div class="col-1-of-4">
+                   <img src="{{asset('ressources/images/quality.png')}}" alt="">
+                   <span>Grand choix de produits</span>
+               </div>
+
+       </div>
+       <div style="clear:both;"></div>
+       <div class="footer-brands">
+               <h2 class="center-lined">
+                   Le choix des plus grandes marques
+               </h2>
+<div id="liquid1" class="liquid">
+	<span class="previous"></span>
+	<div class="wrapper">
+		<ul>
+			<li><a href="#" title="image 01"><img src="{{asset('ressources/images/makita-logo-slider.png')}}" width="88" height="30" alt="image 01" border="0" /></a></li>
+			<li><a href="#" title="image 02"><img src="{{asset('ressources/images/philips-logo-slider.png')}}" width="88" height="30" alt="image 02" border="0" /></a></li>
+			<li><a href="#" title="image 03"><img src="{{asset('ressources/images/siemens-logo-slider.png')}}" width="88" height="30" alt="image 03" border="0" /></a></li>
+			<li><a href="#" title="image 04"><img src="{{asset('ressources/images/varta-logo-slider.png')}}" width="88" height="30" alt="image 04" border="0" /></a></li>
+			<li><a href="#" title="image 05"><img src="{{asset('ressources/images/shneider-logo-slider.png')}}" width="88" height="30" alt="image 05" border="0" /></a></li>
+			<li><a href="#" title="image 06"><img src="{{asset('ressources/images/legrand-logo-slider.png')}}" width="88" height="30" alt="image 06" border="0" /></a></li>
+			<li><a href="#" title="image 07"><img src="{{asset('ressources/images/chint-logo-slider.png')}}" width="88" height="30" alt="image 07" border="0" /></a></li>
+			<li><a href="#" title="image 01"><img src="{{asset('ressources/images/makita-logo-slider.png')}}" width="88" height="30" alt="image 01" border="0" /></a></li>
+			<li><a href="#" title="image 02"><img src="{{asset('ressources/images/philips-logo-slider.png')}}" width="88" height="30" alt="image 02" border="0" /></a></li>
+			<li><a href="#" title="image 03"><img src="{{asset('ressources/images/siemens-logo-slider.png')}}" width="88" height="30" alt="image 03" border="0" /></a></li>
+			<li><a href="#" title="image 04"><img src="{{asset('ressources/images/varta-logo-slider.png')}}" width="88" height="30" alt="image 04" border="0" /></a></li>
+			<li><a href="#" title="image 05"><img src="{{asset('ressources/images/shneider-logo-slider.png')}}" width="88" height="30" alt="image 05" border="0" /></a></li>
+			<li><a href="#" title="image 06"><img src="{{asset('ressources/images/legrand-logo-slider.png')}}" width="88" height="30" alt="image 06" border="0" /></a></li>
+			<li><a href="#" title="image 07"><img src="{{asset('ressources/images/chint-logo-slider.png')}}" width="88" height="30" alt="image 07" border="0" /></a></li>
+			
+		</ul>
+	</div>
+	<span class="next"></span>
+</div>
+       </div>
+  
+
+        
+        
+        
+        
+        {% endblock %}

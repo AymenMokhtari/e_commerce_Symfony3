@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{asset('ressources/css/admin.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="admin-menu">
+           
+            <a class='logout' href="{{ path('fos_user_security_logout') }}">Logout | {{ app.user.username }}</a>  
+            
+            <a class='logout' href="{{ path('home_page') }}">Accueil </a>  
+           
+        </div>
+           
+                
+        <div class="menu">
+            
+            <a href="{{path('new_product')}}" class="btn-admin">
+                <div class="logo-menu">
+                    <img src="{{asset('ressources/images/add.png')}}" alt="">
+                </div>
+                <span>Ajouter des produits</span>
+            </a>
+            <a href="{{path('list_admin')}}" class="btn-admin">
+                 <div class="logo-menu">
+                    <img src="{{asset('ressources/images/list.png')}}" alt="">
+                </div>
+                <span>Liste des produits</span>
+            </a>
+           <a href="{{path('new_categorie')}}" class="btn-admin">
+                 <div class="logo-menu">
+                    <img src="{{asset('ressources/images/add.png')}}" alt="">
+                </div>
+                <span>Ajouter des catégories</span>
+            </a>
+            <a href="{{path('list_adminc')}}" class="btn-admin">
+                 <div class="logo-menu">
+                    <img src="{{asset('ressources/images/list.png')}}" alt="">
+                </div>
+                <span>Liste des catégories</span>
+            </a>
+       
+        </div>
+        
+         <div style="clear:both;"></div>
+         <div class="content">
+            
+                 {% block content %}{% endblock %}
+        </div>
+        
+    </div>
+</body>
+</html>

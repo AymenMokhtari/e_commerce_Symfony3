@@ -1,0 +1,32 @@
+home_page:
+    path:     /
+    defaults: { _controller: EcommerceEcommerceBundle:Default:index }
+ 
+Produit_show:
+    path:     /prodshow/{id}
+    defaults: { _controller: EcommerceEcommerceBundle:Default:prodshow }  
+categorie_by_id:
+    path:     /categorie/{categorie}
+    defaults: { _controller: EcommerceEcommerceBundle:Default:categorieid }     
+rechercheProduits:
+    pattern:  /recherche
+    defaults: { _controller: EcommerceEcommerceBundle:Default:rechercheTraitement }    
+  
+rechercheProduitsAdmin:
+    pattern:  /recherchep
+    defaults: { _controller: EcommerceEcommerceBundle:Default:rechercheTraitementp }      
+contactus:
+    pattern:  /contact
+    defaults: { _controller: EcommerceEcommerceBundle:Default:contact }      
+aboutus:
+    pattern:  /aboutus
+    defaults: { _controller: EcommerceEcommerceBundle:Default:aboutus }      
+    
+login:
+    pattern:  /lg
+    defaults: { _controller: EcommerceEcommerceBundle:Default:adminp }      
+    
+        
+    
+    
+    

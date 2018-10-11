@@ -1,0 +1,26 @@
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block fos_user_content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{asset('ressources/css/style-login.css')}}">
+    
+</head>
+<body> mysql10.pro
+ <form action="{{ path("fos_user_security_check") }}" method="post">
+        <header>Login</header>
+        <label>Username <span>*</span></label>
+        <input id="username" type="text">
+        <div class="help">6 characters minimum</div>
+        <label for="">Password <span>*</span></label>
+        <input id="password"s type="text" name="" id="">
+        id="_submit" name="_submit"
+        <button id="_submit" name="_submit">Login</button>
+    </form>
+</body>
+</html>
+{% endblock fos_user_content %}

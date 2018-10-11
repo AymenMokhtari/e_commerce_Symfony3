@@ -1,0 +1,7 @@
+     
+
+{% for entity in entities %}
+    
+              <li><a href="{{path('categorie_by_id',{'categorie':entity.id})}}">{{ entity.nom }} </a></li>           
+{% endfor %}
+       

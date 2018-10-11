@@ -1,0 +1,36 @@
+.liquid {
+
+	padding:10px 0;
+}
+.liquid .previous {
+	display:block;
+	height:80px;
+	width:39px;
+	background-image:url('../images/previous.png');
+    cursor: pointer;
+    background-repeat: no-repeat;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.liquid .next {
+	display:block;
+     cursor: pointer;
+	height:80px;
+	width:39px;
+	background-image:url('../images/next.png');
+    background-repeat: no-repeat;
+	float:right;
+	margin:0;
+	padding:0;
+}
+.liquid ul li {
+	width:125px;
+	padding:0 2px;
+    padding-top: 26px;
+	margin:0;
+}
+.liquid ul li a img {
+
+}
+

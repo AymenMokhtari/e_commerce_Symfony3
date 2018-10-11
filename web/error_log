@@ -1,0 +1,298 @@
+[19-Aug-2016 14:10:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'waiting for initial communication packet', system error: 4' in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#1 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#2 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'euroelec', 'euroelec', Array)
+#3 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 115
+[19-Aug-2016 14:10:56 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'waiting for initial communication packet', system error: 110' in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#1 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#2 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'euroelec', 'euroelec', Array)
+#3 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madso in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 115
+[19-Aug-2016 14:10:56 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'waiting for initial communication packet', system error: 110' in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#1 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#2 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'euroelec', 'euroelec', Array)
+#3 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madso in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 115
+[19-Aug-2016 14:11:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'waiting for initial communication packet', system error: 110' in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#1 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#2 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'euroelec', 'euroelec', Array)
+#3 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madso in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 115
+[21-Sep-2016 02:53:54 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'waiting for initial communication packet', system error: 110' in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#1 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=db4f...', 'euroelec', 'euroelec', Array)
+#2 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'euroelec', 'euroelec', Array)
+#3 /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madso in /home/madsoftt/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 115
+[21-Sep-2016 02:54:37 America/Chicago] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/madsoftt/public_html/euroelec.tn/app/cache/prod/appProdUrlMatcher.php:337
+Stack trace:
+#0 /home/madsoftt/public_html/euroelec.tn/app/cache/prod/classes.php(1366): appProdUrlMatcher->match('/vendors/fonts/...')
+#1 /home/madsoftt/public_html/euroelec.tn/app/cache/prod/classes.php(1259): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/madsoftt/public_html/euroelec.tn/app/cache/prod/classes.php(1969): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher))
+#4 /home/madsoftt/public_html/euroelec.tn/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedL in /home/madsoftt/public_html/euroelec.tn/app/cache/prod/classes.php on line 1985
+[14-Dec-2016 13:23:00 America/Chicago] PHP Warning:  file_put_contents(): Only 0 of 8609 bytes written, possibly out of free disk space in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php on line 304
+[14-Dec-2016 13:23:01 America/Chicago] PHP Fatal error:  Class 'Proxies\__CG__\Ecommerce\EcommerceBundle\Entity\Media' not found in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/common/lib/Doctrine/Common/Proxy/AbstractProxyFactory.php on line 121
+[14-Dec-2016 13:28:50 America/Chicago] PHP Warning:  file_put_contents(): Only 0 of 8609 bytes written, possibly out of free disk space in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php on line 304
+[14-Dec-2016 13:28:50 America/Chicago] PHP Fatal error:  Class 'Proxies\__CG__\Ecommerce\EcommerceBundle\Entity\Media' not found in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/common/lib/Doctrine/Common/Proxy/AbstractP[01-Mar-2017 21:55:42 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[01-Mar-2017 21:55:59 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[01-Mar-2017 21:56:03 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[01-Mar-2017 21:56:10 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[01-Mar-2017 22:05:52 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[01-Mar-2017 22:05:58 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[01-Mar-2017 22:06:04 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[03-Mar-2017 00:59:07 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[03-Mar-2017 00:59:21 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[03-Mar-2017 00:59:50 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[04-Mar-2017 19:28:50 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[04-Mar-2017 19:29:05 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[04-Mar-2017 19:29:29 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:49:01 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:49:07 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:53:26 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:53:27 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:54:13 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:54:18 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:54:26 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:54:32 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:55:22 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:55:23 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:57:07 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:57:11 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 22:58:28 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 23:26:20 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 23:29:47 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 23:30:35 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 23:30:52 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 23:30:54 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 23:43:25 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[06-Mar-2017 00:23:41 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[06-Mar-2017 00:24:11 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[06-Mar-2017 00:29:48 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[06-Mar-2017 00:31:40 Africa/Tunis] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'madsoft'@'41.231.55.16' (using password: YES)' in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=mysq...', 'madsoft', '7894561', Array)
+#1 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mysq...', 'madsoft', 7894561, Array)
+#2 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'madsoft', 7894561, Array)
+#3 /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/madsoft/public_html/euroelec.tn/vendor/doctrine in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[05-Mar-2017 17:49:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) in /home/madsoft/public_html/euroelec.tn/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php on line 62

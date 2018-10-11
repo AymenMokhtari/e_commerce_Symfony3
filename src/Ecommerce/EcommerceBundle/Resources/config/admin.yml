@@ -1,0 +1,35 @@
+modifierProduits:
+    pattern:  /modifierp/{id}
+    defaults: { _controller: EcommerceEcommerceBundle:Default:modifierp }   
+deletep:
+    pattern:  /deletep/{id}
+    defaults: { _controller: EcommerceEcommerceBundle:Default:deletep }  
+deletec:
+    pattern:  /deletec/{id}
+    defaults: { _controller: EcommerceEcommerceBundle:Default:deletec } 
+list_admin:
+    pattern:  /listpa
+    defaults: { _controller: EcommerceEcommerceBundle:Default:listpa } 
+list_adminc:
+    pattern:  /listca
+    defaults: { _controller: EcommerceEcommerceBundle:Default:showcat }
+new_product:
+    path:     /
+    defaults: { _controller: EcommerceEcommerceBundle:Default:createp }
+new_categorie:
+    path:     /newCategorie
+    defaults: { _controller: EcommerceEcommerceBundle:Default:createc }
+show_all:
+    path:     /showall
+    defaults: { _controller: EcommerceEcommerceBundle:Default:show } 
+topvente_activ:
+    path:     /topvente_activ/{id}
+    defaults: { _controller: EcommerceEcommerceBundle:Default:topventeac } 
+topvente_deac:
+    path:     /topvente_deac/{id}
+    defaults: { _controller: EcommerceEcommerceBundle:Default:topventedec } 
+    
+    
+    
+    
+    
